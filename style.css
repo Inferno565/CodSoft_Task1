@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: rgb(0, 0, 33);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background: #13103c;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 23px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(189, 124, 254);
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.first>div {
+    width: 30%;
+}
+
+.rightSection img {
+    width: 100%;
+}
+
+.leftSection {
+    margin: 50px 0;
+    font-size: 2.4rem;
+}
+
+.purple,
+#element {
+    color: blueviolet;
+}
+
+#element {
+    color: rgb(94, 255, 0);
+    font-size: 2.8rem;
+}
+
+main hr {
+    border: 0;
+    background: #e1e1ff;
+    height: 1px;
+    width: 85vw;
+    margin: 30px auto;
+}
+
+.second {
+    margin: auto;
+    width: 80%;
+    height: 80vh;
+}
+
+.second h1 {
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.second .text-gray {
+    display: block;
+    color: gray;
+}
+
+.second .box {
+    height: 2px;
+    background: white;
+    margin: 56px 0;
+    display: flex;
+}
+
+.vertical {
+    height: 90px;
+    width: 1px;
+    background: white;
+    margin: 0 100px;
+}
+
+.image-top {
+    position: relative;
+    top: -55px;
+    left: -17px;
+    width: 50px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 40px;
+    width: 150px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 50px;
+    width: 150px;
+    font-size: 10px;
+    color: gray;
+}
+
+footer {
+    background-color: rgb(25, 25, 33);
+}
+
+.footer {
+    display: flex;
+    height: 35vh;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.footer ul{
+    list-style-type: none;
+}
